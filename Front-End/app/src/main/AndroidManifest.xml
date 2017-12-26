@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navigationdrawersample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:label="Forgot Password"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".NewPassword"
+            android:label=" New Password"
+
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".NurseHomePage"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Admin"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Rollback_Info_Page"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Rollback"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ReleaseBed"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ReleaseBedInfo"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

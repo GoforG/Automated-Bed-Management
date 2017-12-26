@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bedStatusGeneral_dialogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/responsible_generalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/wardStatus_generalLayout">
+
+            <TextView
+                android:id="@+id/responsible_general_value"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/responsible_general_label"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/responsible_general_label"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Responsible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wardStatus_generalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/unitStatus_generalLayout">
+
+            <TextView
+                android:id="@+id/wardStatus_general_value"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/wardStatus_general_label"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/wardStatus_general_label"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Ward Status" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/unitStatus_generalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/unitStatus_general_value"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/unitStatus_general_label"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/unitStatus_general_label"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:text="Unit Status" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

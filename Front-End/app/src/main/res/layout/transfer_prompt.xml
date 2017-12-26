@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/button_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/frommsg"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:id="@+id/rel3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="false"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/confirm"
+                android:background="#ECEEF1"
+                android:text="CANCEL"
+                android:textColor="@color/background" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="false"
+                android:background="#ECEEF1"
+                android:text="CONFIRM"
+                android:textColor="@color/background" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rel2">
+
+        <CheckBox
+            android:id="@+id/retain_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/retain_or_not_textview" />
+
+        <TextView
+            android:id="@+id/retain_or_not_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Want to retain bed?"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wardTypeRelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="11dp">
+
+        <Spinner
+            android:id="@+id/checkup_wardTypeSpinner"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/wardTypeTextView" />
+
+        <TextView
+            android:id="@+id/wardTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Ward Type"
+            android:textSize="20dp"
+            tools:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/wardTypeRelLayout"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/bedId_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Transfer to"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/bedId_label"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"></Spinner>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rel1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="Days Expected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bedId_value"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <NumberPicker
+            android:id="@+id/numberPicker1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_toRightOf="@+id/bedId_value" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel4"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Message"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/frommsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp" />
+</RelativeLayout>

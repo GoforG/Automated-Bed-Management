@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bedStatus_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/bedStatus_inner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/wardTypeRelLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp">
+
+            <Spinner
+                android:id="@+id/wardtype_spinner"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/wardtype_textview" />
+
+            <TextView
+                android:id="@+id/wardtype_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ward Type"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wardPickLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/wardTypeRelLayout"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/wardPickLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ward"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/wardPickSpinner"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/wardPickLabel"
+                android:textSize="20dp"></Spinner>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/unitPickLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/wardPickLayout"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/unitPickLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Unit"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/unitPickSpinner"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="110dp"
+
+                android:layout_toRightOf="@+id/unitPickLabel" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/searchButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/unitPickLayout"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp">
+
+            <Button
+                android:id="@+id/bedStatusSearchButton"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:background="#ECEEF1"
+                android:text="Search"
+                android:textColor="@color/background" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

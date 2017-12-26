@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text100"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Name: Pandey"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/bedId_label"
+                    android:layout_marginTop="50dp"
+                    android:text="Diagnosis: water in lungs"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/rel1"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Current Condition"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <SeekBar
+                    android:id="@+id/sb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/text5"
+                    android:layout_marginTop="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/rel2">
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Required Ward"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/dialogspinner"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/text6"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></Spinner>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/res_rel1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/rel3">
+
+                <TextView
+                    android:id="@+id/text600"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Required Ward Type"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/wardtypespinner"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/text600"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></Spinner>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/res_rel1">
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_vertical"
+                    android:text="Days to Discharge      "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/daystodichargefromhosp1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/text4"
+                    tools:background="@color/buttoncolor" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rel5"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="#ECEEF1"
+                    android:text="GIVE DATE"
+                    android:textColor="@color/background"
+                     />
+                <Button
+
+                    android:id="@+id/buttonadmit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/button2"
+                    android:layout_marginLeft="20dp"
+                    android:background="#ECEEF1"
+                    android:onClick="admit"
+                    android:text="ADMIT"
+                    android:textColor="@color/background" />
+                <Button
+                    android:id="@+id/buttonborrow"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/buttonadmit"
+                    android:layout_marginLeft="20dp"
+                    android:background="#ECEEF1"
+                    android:text="BORROW"
+                    android:textColor="@color/background" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

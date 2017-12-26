@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.navigationdrawersample.ReleaseBedInfo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/releaseButton"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/releaseBed_textview"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="Release" />
+
+        <TextView
+            android:id="@+id/releaseBed_textview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+</FrameLayout>

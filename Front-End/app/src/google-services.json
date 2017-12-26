@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766849921566",
+    "firebase_url": "https://nimhans-bed-mangement.firebaseio.com",
+    "project_id": "nimhans-bed-mangement",
+    "storage_bucket": "nimhans-bed-mangement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766849921566:android:22f6d0bc6f3bc1c1",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawersample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766849921566-lkasr0chhc7ngcvbpku8k4mihdv1ia8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1vYU-uE-C3of9UhqxBCTepkUXA8o5q84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

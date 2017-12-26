@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="transferlist1"/>
+    <item type="id" name="transferlist2"/>
+    <item type="id" name="transferlist3"/>
+    <item type = "id" name = "unitStatus" />
+    <item type = "id" name = "wardStatus" />
+    <item  type ="id" name = "respRes" />
+    <item name="confirmbutton_pending" type="id" />
+    <item name="cancelbutton_pending" type="id" />
+    <item name="givebedbutton_incoming" type="id" />
+    <item name="rejectbutton_incoming" type="id" />
+    <item name = "borrowbedbutton_incoming" type="id"/>
+    <item name="okbutton_pending" type="id" />
+    <item name="okbutton_incoming" type="id" />
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\2d804baae30e0c05c63cd7901722f88698b5fd3e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19647f64e3fdb5ca0e04f3c60cba755a91716659\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\9022bc5c22af716f038a44250240abd7c89ae585\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8bd0e0d02fda0e3a2482b60482d9118f9320cc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_981ea52411e0169472cd4dcedfae3c6ed8b6c6c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\037e6bee3fcdca1dea8a6bd99c08998eec229bd8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5dd68d9f721df8417221591e9a5d3036bab7de1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\e940753a22045aefab08331c46f0da65397a5664\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20f0bbeb5fd52f74e77af0d1e2513e3cb46c68b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\728a8697c7a202c43cf17ed155606c8aa0ac1126\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0cd5c4dada0f52166f6e4e324a1e49b06d07befa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\872040e8129d4fdb815703e5844d6fc1671f6351\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19d1fc48ea244a6e88ce6a83117e6de945da9aaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\6a6bd3c7e68f473052b9ae7227de0c7057c760a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34d4aeb9ac6360fd313a86a1728dcc087f6bbc90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\d025b6393dae35885400c0a9f3bb9f0459da9d8a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68fc0a7fe9c16a8140ebf6cd0b9f6fb9453c6c20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\bbd98d4df2bc1142f9e5a4ae18e6dfe2d3dd572c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c801d1c6b70bf9472f1ec33ac9e433c2d09875f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f1ede1c8e6add4d4dbe0db8e9308af1c32deb90">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_875d7321c11e080a61a4a082af99543b8d792deb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.4.0\f00bc767918ad9c89e5c13e25706d033a58e13c2\firebase-client-android-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f00bc767918ad9c89e5c13e25706d033a58e13c2">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.4.0_83f7fe7b6525889e03ccfedb2c4a1b7c72e7602a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_8c7db6818ea5d377a68b950f7c2a29f3984d53d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\0bc37a16981361c89aaa6ccbf1c009c8a6a3432f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38b854dc6b83d07db8173bfffdebbf53c2cb5aa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_5093d85ea728faf1b94e25bf4385ab80db0be1aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\e23d0e8bfaa71f13c8945e3f97396ab614376016\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9b2e3bb0106240ba8a836ca53fce909dd8a9fb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\ca5646bf8ec5863a0af364ac3c82207777ee96aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cfbf111128b2d505ff10331fec3ba9a01ab54907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_10a36e0ea08ae03c05190c9a243eedcf619e83c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_659deb42afc0b0ff49d77c0713b5753fe8ed7975\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\81087bd1e53dd672df773fe1e1b5b3d40c703e04\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06835d06fe52421a22162df2104dc4fc7d9da467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\d3d22cdda465d291d47136812d2c927504268b33\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4392fe7163d9631e71efeec8ee130e347b76708\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_12cb1c5b02203f886b279ba016ae777c160162e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.4.0\558e074f136fee609b8758480ecd00e286595137\firebase-client-jvm-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="558e074f136fee609b8758480ecd00e286595137">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.4.0_53f84c175447c0eb9d0b52b1984caa0fc70a4bdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\91138cfb4f4510482027d66f1c68fdf2c61c70ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22c8349d3229c549ee023014996cecb31aa7f261\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.0_825b43445a682f3d3049ec534bc2ff8de4f97f34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\5ca671f6675e7513ab2fc918b80989a75dc117f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_253d7ad19c7bb86077a34f454fda7b65d0e8cb1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\76d20c803ef5db280aedd710818e9354f9cac557\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91c4fd4a47d3e1a644e3134e0f54c02d1b8b8b36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\6c35d25ca8561050b46864fd688261b43c941dca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e156b32b0dafa56bd9f35d18cb0eecb7c5a36145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_3884c67ffcd79fcba375fb35633f06f29c493c33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\6ccc9f056d6b56a68ed4001360f45dcb40f76e14\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_95ec1a092a042b5e5a2a212c238bdb1b1aba868d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_7c51aa2e6a01629f94404b95cb8c5c021a587df8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\21e8190d43d6ec6d4983c6e2dd24cb25a1980be3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19c6de4a48afa3fa8da512bae4866b6f95464276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\.android\build-cache\3e693ed9ac5d9bee9db7130c20b525cd53a537e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a9b6ff9adfc22a1ea90557a144e9ab96932453a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vivek Sharma\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Vivek Sharma\Desktop\Nimhans Project\PE\Nimhans_Bed_Management\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_e7358f984e90833afdf162478367a18376575699\classes.dex" />
+    </item>
+
+</items>

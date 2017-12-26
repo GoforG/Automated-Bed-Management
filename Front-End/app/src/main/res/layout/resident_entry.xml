@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/patientId_EditText"
+                android:layout_width="215dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/patientId_lab"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/patientId_lab"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Enter Patient Id"
+                android:textSize="30dp"
+                tools:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/patientId_EditText"
+                android:layout_alignStart="@+id/patientId_EditText"
+                android:layout_below="@+id/patientId_EditText"
+                android:layout_marginLeft="93dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="44dp"
+                android:background="#ECEEF1"
+                android:text="Search"
+                android:textColor="@color/background" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

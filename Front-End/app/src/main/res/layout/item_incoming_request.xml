@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemIncomingRequestInfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <RelativeLayout
+                android:id="@+id/toWardTypeLayout_incoming"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/fromWardTypeLayout_incoming">
+
+                <TextView
+                    android:id="@+id/toWardType_incoming_value"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/toWardType_incoming_label"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/toWardType_incoming_label"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="To Ward Type"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fromWardTypeLayout_incoming"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/toWardLayout_incoming">
+
+                <TextView
+                    android:id="@+id/fromWardType_incoming_value"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/fromWardType_incoming_label"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/fromWardType_incoming_label"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="From Ward Type"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/toWardLayout_incoming"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/rel3_pending">
+
+                <TextView
+                    android:id="@+id/toWard_incoming_value"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/toWard_incoming_label"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/toWard_incoming_label"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:text="To Ward"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dateRel_pending"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/date_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_toRightOf="@+id/date_label_pending"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+
+                <TextView
+                    android:id="@+id/date_label_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Date"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel8_pending"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rel7_pending">
+
+                <EditText
+                    android:id="@+id/to_msg_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text15_pending"
+                    android:hint="Enter your message..."
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:id="@+id/text15_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="My Message" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttons_incoming"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/rel8_pending"
+                android:layout_marginTop="40dp">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/rel7_pending"
+                android:layout_below="@+id/rel6_pending">
+
+                <TextView
+                    android:id="@+id/giveWardType"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text13_pending"
+                    android:text="Select ward type"
+                    android:textColor="@color/backgroun"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/text13_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="ward type"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/rel6_pending"
+                android:layout_below="@+id/rel5_pending">
+
+                <TextView
+                    android:id="@+id/approval_status_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text11_pending"
+                    android:text="Put Status" />
+
+                <TextView
+                    android:id="@+id/text11_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Status"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/rel5_pending"
+                android:layout_below="@+id/rel4_pending">
+
+                <TextView
+                    android:id="@+id/from_msg_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text9_pending"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:id="@+id/text9_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Received Message"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel4_pending"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/toWardTypeLayout_incoming">
+
+                <TextView
+                    android:id="@+id/condition_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text7_pending"
+                    android:text="Put condition here" />
+
+                <TextView
+                    android:id="@+id/text7_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Patient Condition"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/rel3_pending"
+                android:layout_below="@+id/rel2_pending">
+
+                <TextView
+                    android:id="@+id/fromward_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text5_pending"
+                    android:text="Put Ward here" />
+
+                <TextView
+                    android:id="@+id/text5_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:text="From Ward"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/rel2_pending"
+                android:layout_below="@+id/rel1">
+
+                <TextView
+                    android:id="@+id/patientId_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/text3_pending"
+                    android:text="Put Id here" />
+
+                <TextView
+                    android:id="@+id/text3_pending"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Patient Id"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/dateRel_pending">
+
+                <TextView
+                    android:id="@+id/doctor_name_incoming"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_toRightOf="@+id/bedId_label"
+                    android:text="Put name here" />
+
+                <TextView
+                    android:id="@+id/bedId_label"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Doctor Name"
+
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

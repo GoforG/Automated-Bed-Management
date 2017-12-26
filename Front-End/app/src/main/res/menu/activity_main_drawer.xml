@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Admissions" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Checkups" />
+        <item
+            android:id="@+id/bedstatus_menu"
+            android:icon="?android:attr/actionModeSelectAllDrawable"
+            android:title="Bed Availibility" />
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Requests" />
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Transfers" />
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

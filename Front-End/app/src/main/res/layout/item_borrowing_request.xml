@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.navigationdrawersample.itemBorrowingRequestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/borrowedfromunit"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/borrowingUnit"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/borrowedfromunit"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/borrowingTime"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/borrowingUnit"
+            android:layout_marginTop="39dp"
+            android:paddingLeft="30dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/borrowingdate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:text="Return Bed"
+            android:layout_below="@+id/borrowingdate"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>

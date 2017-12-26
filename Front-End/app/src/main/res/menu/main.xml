@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/responsible_button"
+        android:orderInCategory="100"
+        android:title="Responsible?"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/change_Ward"
+        android:orderInCategory="100"
+        android:title="Change Ward"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout_button"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

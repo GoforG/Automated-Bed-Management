@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.navigationdrawersample.Rollback">
+
+    <RelativeLayout
+        android:id="@+id/rel_bedRelease"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relBed_innerRel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/bedId_value"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/bedId_label"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/bedId_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="false"
+                android:layout_marginLeft="20dp"
+                android:text="Enter Bed Id"
+                android:textSize="30dp"
+                tools:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/bedId_value"
+                android:layout_alignStart="@+id/bedId_value"
+                android:layout_below="@+id/bedId_value"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="44dp"
+                android:background="#ECEEF1"
+                android:text="Search"
+                android:textColor="@color/background" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
